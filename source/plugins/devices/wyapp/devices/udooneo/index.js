@@ -58,7 +58,10 @@ export function setup (options, imports, register)
 		 */
 		run (project)
 		{
+			let retVal = true;
 			project;
+
+			return retVal;
 		}
 	};
 
